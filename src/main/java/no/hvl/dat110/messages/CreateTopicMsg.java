@@ -12,17 +12,17 @@ public class CreateTopicMsg extends Message {
 		
 	}
 
-	public String GetTopic() {
+	public String getTopic() {
 		return topic;
 	}
 
-	public void SetTopic() {
+	public void setTopic() {
 		this.topic = topic;
 	}
 
 	@override
 	public String toString() {
-		return "CreateTopicMsg [topic = "+topic+ super.toString()+"]"
+		return "CreateTopicMsg [topic ="+topic+ ", type="+getType+", user="+getUser;
 	}
 	// TODO: 
 	// Implement object variables - a topic is required
