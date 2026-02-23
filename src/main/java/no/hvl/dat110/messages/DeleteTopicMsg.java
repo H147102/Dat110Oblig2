@@ -10,7 +10,16 @@ public class DeleteTopicMsg extends Message {
 		this.topic = topic;
     }
 
-	get
+	public String getTopic() {
+		return topic;
+	}
+
+	public void setTopic() {
+		this.topic = topic;
+	}
+
+	public String toString() {
+		return "DeleTopicMsg [topic="+topic+", type="+getType()+", user="+getUser()+".";
 	// TODO:
 	// Implement object variables - a topic is required
 
