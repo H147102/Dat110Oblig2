@@ -22,7 +22,7 @@ public class CreateTopicMsg extends Message {
 
 	@override
 	public String toString() {
-		return "CreateTopicMsg [topic ="+topic+ ", type="+getType+", user="+getUser;
+		return "CreateTopicMsg [topic ="+topic+ ", type="+getType()+", user="+getUser();
 	}
 	// TODO: 
 	// Implement object variables - a topic is required
