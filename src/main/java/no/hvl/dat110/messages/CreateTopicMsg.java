@@ -16,8 +16,8 @@ public class CreateTopicMsg extends Message {
 		return topic;
 	}
 
-	public void setTopic() {
-		this.topic = topic;
+	public void setTopic(String topicVar) {
+		this.topic = topicVar;
 	}
 
 	@override
